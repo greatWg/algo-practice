@@ -1,0 +1,7 @@
+SpellChecker : Levenshtein distance
+http://raelcunha.com/spell-correct.php
+or http://norvig.com/spell-correct.html
+
+http://stackoverflow.com/questions/346757/how-do-spell-checkers-work
+
+Created the Radix tree - Get the edges that starts with X string from input
