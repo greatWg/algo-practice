@@ -7,17 +7,17 @@ import java.util.Stack;
 
 public class GraphTree {
 	
-	Node rootnode;
+	Node rootNode;
 	ArrayList<Node> nodes= new ArrayList<Node>();
 	int[][] adjMatrix;
 	int size;
 	
 	public void setRootNode(Node n){
-		  this.rootnode=n;
+		  this.rootNode =n;
 	}
 	
 	public Node getRootNode(){
-		return this.rootnode;
+		return this.rootNode;
 	}
 	
 	public  void addNode(Node n){
@@ -71,14 +71,14 @@ public class GraphTree {
 	}  
 	
 	/**
-	 * Breadth First Search Traversal: Queue
+	 * Breadth First Search Traversal: Queue -- go on breadth -- first in first out
 	 */
 	private void BFSTraversal( ){
 		//Use Queue as data structure
 		Queue<Node> queue = new LinkedList<Node>();
-		queue.add(this.rootnode);
-		printNode(this.rootnode);
-		this.rootnode.visited=true;
+		queue.add(this.rootNode);
+		printNode(this.rootNode);
+		this.rootNode.visited=true;
 		while(!queue.isEmpty()){
 			Node n=(Node)queue.remove();
 			Node child=null;
@@ -93,13 +93,13 @@ public class GraphTree {
 	
 	}
 	/**
-	 * Depth First Search Traversal:
+	 * Depth First Search Traversal:  go in depth first -- Stack where  last in first out
 	 */
 	private void DFSTraversal(){
 		Stack<Node> stack= new Stack<Node>();
-		stack.push(this.rootnode); //push() : Pushes an item onto the top of this stack
-		rootnode.visited= true;
-		printNode(this.rootnode);
+		stack.push(this.rootNode); //push() : Pushes an item onto the top of this stack
+		rootNode.visited= true;
+		printNode(this.rootNode);
 		while (!stack.empty()){
 			Node n=(Node) stack.peek();//peek(): Looks at the object at the top of this stack without removing it from the stack.
 			Node child=getUnvisitedChildNode(n);
