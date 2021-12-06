@@ -40,22 +40,22 @@ public class RadixTree {
 			}
 			else
 			{
-				String lablePrefix= getCommonPrefix(input , commonPrefixEdge.lable);
-				if (lablePrefix.length()< commonPrefixEdge.lable.length()){
+				String lablePrefix= getCommonPrefix(input , commonPrefixEdge.label);
+				if (lablePrefix.length()< commonPrefixEdge.label.length()){
 					Edge suffixLableEdge=null;
 					if (commonPrefixEdge.targetNode.isLeaf==true)
 					{
-						suffixLableEdge= new Edge(new Node(),commonPrefixEdge.lable.substring(lablePrefix.length(), commonPrefixEdge.lable.length())); 
+						suffixLableEdge= new Edge(new Node(),commonPrefixEdge.label.substring(lablePrefix.length(), commonPrefixEdge.label.length()));
 					}
 					else 
 					{
-						suffixLableEdge= new Edge(commonPrefixEdge.targetNode,commonPrefixEdge.lable.substring(lablePrefix.length(), commonPrefixEdge.lable.length())); 
+						suffixLableEdge= new Edge(commonPrefixEdge.targetNode,commonPrefixEdge.label.substring(lablePrefix.length(), commonPrefixEdge.label.length()));
 					}
 					Edge newEdge = new Edge( new Node(), input.substring(lablePrefix.length()));
 					commonPrefixEdge.targetNode= new Node(new Edge[]{suffixLableEdge, newEdge},false);
-					commonPrefixEdge.lable=lablePrefix;
+					commonPrefixEdge.label=lablePrefix;
 				}else 
-				if (lablePrefix.length()==commonPrefixEdge.lable.length())
+				if (lablePrefix.length()==commonPrefixEdge.label.length())
 				{
 					//if (edge.targetNode.isLeaf==true){
 						insert(commonPrefixEdge.targetNode, input.substring(lablePrefix.length()));
@@ -70,9 +70,9 @@ public class RadixTree {
 		Edge commonEdge= null; 
 		for(Edge edge : edges){
 			int i=0;
-			while ( i<edge.lable.length()&& i<input.length())
+			while ( i<edge.label.length()&& i<input.length())
 			{
-				if(edge.lable.charAt(i) ==input.charAt(i))
+				if(edge.label.charAt(i) ==input.charAt(i))
 					i++;
 					if(i>max)
 					{	
@@ -107,7 +107,7 @@ public class RadixTree {
 		if(currentNode.edges!=null){
 			for(Edge edge: currentNode.edges)
 			{
-				System.out.print("\t"+ edge.lable);
+				System.out.print("\t"+ edge.label);
 				if (edge.targetNode!=null)
 				{
 					PrintTree(edge.targetNode);
@@ -137,9 +137,9 @@ public class RadixTree {
 		    	traverseNode= nextEdge.targetNode;
 		    
 		    	// Increment elements found based on the label stored at the edge
-		    	elementsFound += nextEdge.lable.length();
+		    	elementsFound += nextEdge.label.length();
 		    	// MatchedWord Before
-		    	MatchedWord+=nextEdge.lable;
+		    	MatchedWord+=nextEdge.label;
 		    }
 		    else
 		    {
@@ -163,9 +163,9 @@ public class RadixTree {
 		for(Edge nextEdge : traverseNode.edges)
 		{
 			int i=0;
-			while ( i<nextEdge.lable.length() && i<x.length())
+			while ( i<nextEdge.label.length() && i<x.length())
 			{
-				if(nextEdge.lable.charAt(i) ==x.charAt(i))
+				if(nextEdge.label.charAt(i) ==x.charAt(i))
 				{	
 					if(i>=max)
 					{	
@@ -189,7 +189,7 @@ public class RadixTree {
 	{	
 		for (Edge edge : successorNode.edges)
 		{ 
-			String word= prefix+edge.lable;
+			String word= prefix+edge.label;
 			if( edge.targetNode.isLeaf== true || dictionary.containsKey(word))// && (word.length()>=inputLength-2 || word.length()<=inputLength+2))
 			{
 				if (SuggestedWords.containsKey(word.length())){
@@ -240,12 +240,12 @@ public class RadixTree {
 				while ( i<node.edges.length )
 				{
 					Edge currentEdge= node.edges[i];
-					String newPrefix=getCommonPrefix(input, prefix+currentEdge.lable);
+					String newPrefix=getCommonPrefix(input, prefix+currentEdge.label);
 					if (newPrefix.equals(""))
 					{
 						newBranchCreated= true;
 					} 
-					else if ( newPrefix.equals(currentEdge.lable))
+					else if ( newPrefix.equals(currentEdge.label))
 					{
 						if (currentEdge.targetNode.isLeaf==true){
 							currentEdge.targetNode.edges= new Edge[]{new Edge(new Node(), input.substring(newPrefix.length(), input.length()))};
@@ -258,7 +258,7 @@ public class RadixTree {
 						if (newPrefix!=null);
 						{	
 							newBranchCreated= false;
-							String suffix = currentEdge.lable.substring(newPrefix.length(), currentEdge.lable.length());
+							String suffix = currentEdge.label.substring(newPrefix.length(), currentEdge.label.length());
 							
 							Edge newEdge = new Edge(new Node(), input.substring(newPrefix.length(), input.length()));	
 							
@@ -273,7 +273,7 @@ public class RadixTree {
 								}
 								currentEdge.targetNode = new Node(new Edge[]{suffixEdge, newEdge}, false);
 							}
-							currentEdge.lable= newPrefix;
+							currentEdge.label= newPrefix;
 						}
 					}
 					i++;

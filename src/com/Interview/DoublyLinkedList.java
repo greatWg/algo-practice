@@ -1,4 +1,4 @@
-package Interview;
+package com.Interview;
 
 public class DoublyLinkedList {
 

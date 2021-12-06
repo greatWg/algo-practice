@@ -1,4 +1,4 @@
-package algo.GenerateTree;
+package algo.trees.GenerateTree;
 
 public class BuildTreeFromRelationship {
 	

@@ -1,3 +1,5 @@
+package algo.Arrays;
+
 class Solution {
 
     public void sortArray(int[] nums) {

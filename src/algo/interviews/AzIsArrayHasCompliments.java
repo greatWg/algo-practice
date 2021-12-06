@@ -17,7 +17,7 @@ public class AzIsArrayHasCompliments {
 //		 Return : true if any two numbers addition = 0   E.g. 1 -1
 		 
 		   // if in Array there is compliment of number then return true
-		   // intput : {0, 1}
+		   // input : {0, 1}
 		   //
 		   
 		   

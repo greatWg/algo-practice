@@ -88,14 +88,7 @@ public class SpellCheckerCorrecter {
 		}
 	}
 
-	private void SearchWordAgain(Node successorNode, String matchedprefix, String input)
-	{
-		String InputSuffix= input.substring(matchedprefix.length());
-		
-		
-		
-		
-	}
+
 	
 	private void GetWords(HashMap<Integer, ArrayList<String>> possibleWords,String input) 
 	{
@@ -142,4 +135,11 @@ public class SpellCheckerCorrecter {
 	                 LevenshteinDistance(s, len_s - 1, t, len_t - 1) + cost);
 	}
 
+
+	private void SearchWordAgain(Node successorNode, String matchedprefix, String input)
+	{
+		String InputSuffix= input.substring(matchedprefix.length());
+
+
+	}
 }

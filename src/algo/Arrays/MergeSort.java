@@ -1,3 +1,5 @@
+package algo.Arrays;
+
 public class MergeSort {
     int[] input = { 3, 5, 6, 1, 2};
 

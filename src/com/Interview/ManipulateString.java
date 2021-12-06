@@ -1,4 +1,4 @@
-package Interview;
+package com.Interview;
 
 public class ManipulateString {
 	//Amazon shared screen interview SDET position in Digital and Mobile Products team  at Boston, MA

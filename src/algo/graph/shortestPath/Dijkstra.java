@@ -6,7 +6,12 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 /**
- * Dijskstra algorithm
+ * Dijskstra algorithm :shoretest path
+ *  priority queue
+ *
+ * Runtime : E Log(V)
+ * Runtime of Dijkstra : O(E + V log V)
+ * Priority Queue - Worst -  1 (long n) or O(n)
  * @author Amita
  *
  */
@@ -17,20 +22,20 @@ public class Dijkstra {
 		source.minDistance=0;
 		PriorityQueue<Vertex> vertexQueue= new PriorityQueue<Vertex>();
 		vertexQueue.add(source);
- 		
+ 		// BFS with extra set of constraint
 		while (!vertexQueue.isEmpty()){
-			Vertex u=vertexQueue.poll();
+			Vertex u = vertexQueue.poll();
 			
 			//Visit each edge in existing adjancies
 			for ( Edge e : u.adjancies ){
 				Vertex v = e.target;
 				double weight= e.weight;
-				double distanceThroughU= u.minDistance+weight;
+				double distanceThroughU= u.minDistance + weight;
 				
-				if (distanceThroughU< v.minDistance){
+				if (distanceThroughU < v.minDistance){
 					vertexQueue.remove(v);
 					v.minDistance= distanceThroughU;
-					v.previous=u;
+					v.previous= u;
 					vertexQueue.add(v);
 				}
 			}
@@ -55,7 +60,8 @@ public class Dijkstra {
 		 Vertex v4= new Vertex("Blue4");
 		 Vertex v5= new Vertex("Orange5");
 		 Vertex v6= new Vertex("White6");
-	
+
+		 //Adjacencies
 		 v1.adjancies= new Edge[]{ new Edge(v2, 7), 
 				 					new Edge(v3,  9),
 				 					new Edge(v6,14)};

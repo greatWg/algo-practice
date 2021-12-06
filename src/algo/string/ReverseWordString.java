@@ -6,7 +6,7 @@ public class ReverseWordString {
 		String revInput;
 		int i, j;
 		
-		char [] revArray= new char [input.length()];
+		char [] revArray= new char[input.length()];
 		for (i=0, j=input.length()-1;i<input.length();i++, j--){
 			 revArray[j]= input.charAt(i);
 		}
@@ -40,8 +40,11 @@ public class ReverseWordString {
 	public static void main(String[] args) {
 		ReverseWordString RW= new ReverseWordString();
 		String word=RW.reverseString("Hello World");
-		System.out.println(" Reverse Word: "+word); 
+		System.out.println(" Reverse Word: "+word);  // dlroW olleH
 		String revWord=RW.ReverseWordOfString("Hello World");
-		System.out.println(" Reverse Word: "+revWord); 
+		System.out.println(" Reverse Word: "+revWord);  //World Hello
+
+		String revWord1=RW.ReverseWordOfString("Hello World great");
+		System.out.println(" Reverse Word: "+revWord1);  //World Hello
 	}
 }

@@ -37,19 +37,22 @@ public class Searching {
 		int start = 0;
 		int end= input.length;
 		int mid= 0;
-		while(start<=end)
+		while(start< end)
 		{   
 			mid =(start+end)/2;
-			if(mid==searchValue ){
+			if(input[mid] == searchValue ){
 				return mid;
-			}else if(searchValue<mid){
-				end= mid-1;
+			}else if(searchValue<input[mid]){
+				end = mid;
 			}else {
 				start=mid+1;
 			}
 		}
 		return -1;
 	}
+
+
+
 	 /**
 	  * Main Method
 	  * @param args
@@ -69,6 +72,13 @@ public class Searching {
 		//for (int i=0; i< result.length; i++){
 			 System.out.print("Searched Value:"+ i);
 		//}
+
+		System.out.println( "Binary search for 7 :  "+ s.binarySearch(inputBinarySearch, 7));
+
+		int[] array= {-1,0,3,5,9,12};
+		System.out.println( "Binary search for 2 :  "+ s.binarySearch(array, 2));
+
+
 	
 	}
 

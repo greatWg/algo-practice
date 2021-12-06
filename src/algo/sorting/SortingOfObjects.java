@@ -8,7 +8,7 @@ package algo.sorting;
  *
  * example:
  * input: [<"Gina", 12>,<"Chris", 10>,<"Tom", 2>]
- * output: ["Tom","Chris","Gina”] 
+ * output: ["Tom","Chris","Gina"]
  * 
  * String[] sortPeople (Person[] people)
  * {
@@ -35,7 +35,7 @@ public class SortingOfObjects
 
 	private void mergeSort( Person[] persons, int low, int high)
 	 {
-		 if (low<high)
+		 if (low < high)
 		 {
 			 int middle = (low+high)/2;
 			 mergeSort(persons, low, middle);
@@ -100,7 +100,7 @@ class Person implements Comparable<Person>
 	@Override
 	public int compareTo(Person other) 
 	{
-		if (this.age< other.age)
+		if (this.age < other.age)
 	      return -1;
 	    else if (this.age == other.age)
 	      return 0;

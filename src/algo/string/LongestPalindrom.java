@@ -4,9 +4,9 @@ import java.util.*;
 public class LongestPalindrom {
 
 	/**
-	 * @param args
+	 * @param st string
 	 */
-	//Recognize only odd length of paliendrom 
+	//Recognize only odd length of palindrome
 	public int LongestPalindromString(String st){
 		int longest=0;
 		List<Integer> palindromSizelist= new ArrayList<Integer>();
@@ -17,7 +17,7 @@ public class LongestPalindrom {
 	
 		while(index<st.length()){
 			
-			System.out.println("start while"+"i: "+index +" p: "+p);
+			//System.out.println("start while"+"i: "+index +" p: "+p);
 			if (index> p && st.charAt(index-p-1)==st.charAt(index)){
 				p+=2;
 				index++;
@@ -27,10 +27,10 @@ public class LongestPalindrom {
 			longest=Math.max(longest, p);
 			size=palindromSizelist.size()-2;
 			e=size-p;
-			System.out.println("s: "+size +" e: "+e);
+			//System.out.println("s: "+size +" e: "+e);
 			boolean found= false;
 			
-			//found palindrom
+			//found palindrome
 			for(int j=size; j<e;j--){
 				int d=j-e-1;
 				if(palindromSizelist.indexOf(j)==d){

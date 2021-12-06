@@ -86,9 +86,9 @@ public class Sort {
 	
 	public int[] quickSort(int[] input, int left, int right){
 		int index = partition(input, left, right);
-		if(left<index-1 )
+		if(left < index-1 )
 			quickSort(input, left, index-1);
-		if(index< right)
+		if(index < right)
 			quickSort(input, index, right);
 		return input;
 	}
@@ -126,6 +126,7 @@ public class Sort {
 	 */
 	 
 	private int[] mergeSort ( int[] input, int low, int high){
+		// Dividing into sub sections .... sort
 		if(low<high){
 			int middle= (low+high)/2;
 			mergeSort(input, low, middle);
@@ -172,14 +173,14 @@ public class Sort {
 	
 	public void printResults(int[] result, String AlgorithmName) {
 
-		 System.out.println( " ");
-		 System.out.println( "***************");
-		 System.out.println( "Algorithm:  " + AlgorithmName);
+		 System.out.println();
+		 System.out.println("***************");
+		 System.out.println("Algorithm:  " + AlgorithmName);
 		 for (int i=0; i< result.length; i++){
-			 System.out.print(result[i]);
+			 System.out.print(result[i] + " " );
 		 }
-		 System.out.println( " ");		 
-		 System.out.println( "***************");
+		 System.out.println();
+		 System.out.println("***************");
 	}
 	 /**
 	  * Main Method

@@ -1,4 +1,4 @@
-package Arrays;
+package algo.Arrays;
 
 import java.io.*;
 import java.math.*;

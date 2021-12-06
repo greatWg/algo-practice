@@ -34,21 +34,21 @@ public class KSizeSubsetNset {
 		 buildSubsets(0,0,"");
 		 
 	}
- 
+ 	// i== string len  j =kth
 	private void buildSubsets(int i, int j ,String subset) {
-		
-	if(j==k){
-		System.out.print(subset+ " ");
-		return;
+
+		if(j==k){
+			System.out.print(subset+ " ");
+			return;
+		}
+		int b=i;
+		for(;b<n;b++){
+			System.out.println("before call: i and j="+ i + " "+j+ "  "+subset);
+
+			buildSubsets(b+1, j+1,subset+set[b]);
+			System.out.println(" after call i+1 and J+1: " + (b+1)+ " "+ (j+1) + "  "+subset+set[b]);
+		}
 	}
-	int b=i;
-	for(;b<n;b++){
-		System.out.println("before call: i and j="+ i + " "+j+ "  "+subset);
-		
-		buildSubsets(b+1, j+1,subset+set[b]);
-		System.out.println(" after call i+1 and J+1: " + (b+1)+ " "+ (j+1) + "  "+subset+set[b]);
-	}
-}
 
 	/**
 	 * @param args

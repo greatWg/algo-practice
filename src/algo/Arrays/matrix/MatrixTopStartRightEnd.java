@@ -1,3 +1,5 @@
+package algo.Arrays.matrix;
+
 public class MatrixTopStartRightEnd {
 
    public void getPath(int[][] array){

@@ -1,3 +1,4 @@
+package algo.Miscelleneous;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -17,8 +18,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        GetNumberOfIslands countIslands = new GetNumberOfIslands();
-        System.out.println("number of Islands : " + countIslands.howManyIslands());
+//        GetNumberOfIslands countIslands = new GetNumberOfIslands();
+//        System.out.println("number of Islands : " + countIslands.howManyIslands());
 
         ArrayList<String> list = new ArrayList<>();
         list.add ("TEST");
@@ -39,15 +40,15 @@ public class Main {
         Main m = new Main();
         m.imeLibrary();
 
-        MergeSort mergeSort = new MergeSort();
-
-
-//        int[] output = mergeSort.sort( 0, 5);
-//        mergeSort.printArray(output);
-
-        Solution sol = new Solution();
-        int[] nums = {5,4,1,2,3};
-        sol.sortArray(nums);
+//        MergeSort mergeSort = new MergeSort();
+//
+//
+////        int[] output = mergeSort.sort( 0, 5);
+////        mergeSort.printArray(output);
+//
+//        Solution sol = new Solution();
+//        int[] nums = {5,4,1,2,3};
+//        sol.sortArray(nums);
 
 
         //int [][] array = {{1,0,0,0},{1,1,0,1}, {0,1,0,0}, {1,1,1,1}};
@@ -59,9 +60,9 @@ public class Main {
         System.out.println("**** Matrix ****");
         System.out.println("********** \n");
         int [][] array1 = {{1,0,0,0},{1,1,0,1}, {0,1,0,0}, {1,1,1,1}};
-        MatrixTopStartRightEnd matrix= new MatrixTopStartRightEnd();
-        matrix.printMatrix(array1);
-        matrix.getPath(array1);
+//        MatrixTopStartRightEnd matrix= new MatrixTopStartRightEnd();
+//        matrix.printMatrix(array1);
+//        matrix.getPath(array1);
 
     }
 }

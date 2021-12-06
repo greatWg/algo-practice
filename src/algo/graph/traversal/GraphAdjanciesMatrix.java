@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class GraphTree {
+public class GraphAdjanciesMatrix {
 	
 	Node rootNode;
 	ArrayList<Node> nodes= new ArrayList<Node>();
@@ -125,15 +125,18 @@ public class GraphTree {
 	     Node nF=new Node('F');
 	 
 	     //Create the graph, add nodes, create edges between nodes
-	     GraphTree g=new GraphTree();
+	     GraphAdjanciesMatrix g=new GraphAdjanciesMatrix();
 	     g.addNode(nA);
 	     g.addNode(nB);
 	     g.addNode(nC);
 	     g.addNode(nD);
 	     g.addNode(nE);
 	     g.addNode(nF);
+
+	     // set Root node
 	     g.setRootNode(nA);
-	     
+
+	     // Add edges
 	     g.connectNode(nA,nB);
 	     g.connectNode(nA,nC);
 	     g.connectNode(nA,nD);
@@ -146,8 +149,8 @@ public class GraphTree {
 
 	     System.out.println ("--B---C---D--");
 
-	     System.out.println ("-E--F--------");
-	     //Perform the traversal of the graph
+	     System.out.println ("-E-F--------");
+	     //Perform the traversal of the gr-aph
 	     System.out.println("DFS Traversal of a tree is ------------->");
 	     g.DFSTraversal();
 	     

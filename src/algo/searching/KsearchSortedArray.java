@@ -1,6 +1,5 @@
 package algo.searching;
 
-import java.sql.Array;
 
 public class KsearchSortedArray {
 	
@@ -58,7 +57,7 @@ public class KsearchSortedArray {
 	}	
 	 /**Write a function to find an integer (k) in a sorted array of integers. 
 	  * The starting point of the sorted array is not in position 0 thought. 
-	  * It’s somewhere in the middle of the array. Example  {17, 19, 21, 4, 8, 10, 11} 
+	  * It's somewhere in the middle of the array. Example  {17, 19, 21, 4, 8, 10, 11}
 	  * @param args
 	  */
 	public static void main(String args[]){

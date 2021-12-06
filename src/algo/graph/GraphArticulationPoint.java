@@ -1,4 +1,4 @@
-
+package algo.graph;
 // A Java program to find articulation points in an undirected graph
 import java.util.*;
 import java.util.LinkedList;

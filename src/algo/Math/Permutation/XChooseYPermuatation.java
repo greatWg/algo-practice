@@ -1,4 +1,4 @@
-package algo.Math;
+package algo.Math.Permutation;
 
 public class XChooseYPermuatation {
 

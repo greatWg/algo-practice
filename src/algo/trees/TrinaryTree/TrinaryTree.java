@@ -1,4 +1,4 @@
-package algo.TrinaryTree;
+package algo.trees.TrinaryTree;
 public class TrinaryTree 
 {	
 	Node root = null;
@@ -92,17 +92,38 @@ public class TrinaryTree
 	private void preorder(Node root )
 	{
 		if (root==null)
-		{	
-			System.out.println("The tree does not exist");
+		{
+			//System.out.println("The tree does not exist");
 		}
 		else{
-			System.out.println(root.key);
+			System.out.print(root.key + "  ");
 			preorder(root.left);
 			preorder(root.right);
 		}
 	}
 
-	/**
+    private void inOrder(Node root )
+    {
+
+        if (root !=null){
+            inOrder(root.left);
+            System.out.print( root.key + " " );
+            inOrder(root.right);
+        }
+    }
+
+
+    private void postOrder(Node root) {
+        if (root !=null){
+            postOrder(root.left);
+            postOrder(root.right);
+            System.out.print( root.key + " " );
+        }
+
+    }
+
+
+    /**
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -118,9 +139,15 @@ public class TrinaryTree
 		tree.insert(root, 7);
 		tree.insert(root, 2);
 		tree.insert(root, 2);
-		
+
+        System.out.println("The preOrder tree traversal " ); // 5 4 2 9 7 11
+        tree.preorder(root);
+        System.out.println(" " );
+
+
+
 		Node n= tree.delete( root, 5);
-		System.out.println( "after delete");
+		System.out.println( "  after delete");
 		tree.preorder(root);
 		
 		n= tree.delete(root, 1);
@@ -134,8 +161,35 @@ public class TrinaryTree
 //		n= tree.delete( root, 11);
 //		System.out.println( "after delete");
 //		tree.preorder(root);
+
+
+
+        TrinaryTree tree1 = new TrinaryTree();
+
+        //         1
+        //       /   \
+        //      2     3
+        //    /   \
+        //   4     5
+        tree1.root= new Node (1);
+        tree1.root.left = new Node(2);
+        tree1.root.right = new Node(3);
+        tree1.root.left.left = new Node(4);
+        tree1.root.left.right = new Node(5);
+
+        System.out.println("\n The IN ORDER tree traversal Left  Root Right" ); // 4 2 5 1 3
+        tree.inOrder(tree1.root);
+        System.out.println(" " );
+
+        System.out.println("\n The PRE ORDER tree traversal  Root left Right" ); // 1  2  4  5  3
+        tree.preorder(tree1.root);
+        System.out.println(" " );
+
+        System.out.println("\n The POST ORDER tree traversal  left right root  " ); // 4 5 2 3 1
+        tree.postOrder(tree1.root);
+        System.out.println(" " );
 	}
-	
+
 
 
 }

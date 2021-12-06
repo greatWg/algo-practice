@@ -1,4 +1,4 @@
-package Interview;
+package com.Interview;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

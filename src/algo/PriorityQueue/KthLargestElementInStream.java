@@ -1,11 +1,9 @@
 package algo.PriorityQueue;
 
-import sun.awt.geom.AreaOp;
-
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
-public class KthLargestInStream {
+public class KthLargestElementInStream {
 
     int capacity= 0;
     int size;
@@ -14,22 +12,18 @@ public class KthLargestInStream {
         capacity=k;
         size=0;
         for(int i=0 ; i<nums.length; i++){
-            minHeap.offer(nums[i]);
+            minHeap.offer(nums[i]);  // add
             size++;
             if (size> capacity){
-                minHeap.poll();
+                minHeap.poll(); // delete
             }
-
         }
-        print(minHeap);
-        System.out.println ();
-
+        print(minHeap); System.out.println ();
     }
 
     // return Kth Largest in Stream
     public int add(int val){
-        minHeap.offer(val);
-        System.out.print  (" Before ..");
+        minHeap.offer(val); System.out.print  (" Before ..");
         print(minHeap);
         size++;
         if (size> capacity){
@@ -39,8 +33,8 @@ public class KthLargestInStream {
         System.out.print  (" After ..");
         print(minHeap);
         return minHeap.peek();
-
     }
+
     public void print(PriorityQueue<Integer> queue){
         Iterator<Integer> iterator = queue.iterator();
         while(iterator.hasNext()){
@@ -51,7 +45,7 @@ public class KthLargestInStream {
     }
 
    public static void main(String[] args){
-        KthLargestInStream stream = new KthLargestInStream();
+        KthLargestElementInStream stream = new KthLargestElementInStream();
         int [] array = new int []{4 ,5,8,2};
         // 2 4 5 8
         stream.KThLargest(3 , array);  // 2 4 5 8 // 4 5 8

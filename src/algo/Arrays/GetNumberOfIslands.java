@@ -1,3 +1,5 @@
+package algo.Arrays;
+
 public class GetNumberOfIslands {
 
     int ROW= 5, COL=5;

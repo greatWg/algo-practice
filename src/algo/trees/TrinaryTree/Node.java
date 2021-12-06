@@ -1,4 +1,4 @@
-package algo.TrinaryTree;
+package algo.trees.TrinaryTree;
 
 public class Node 
 {

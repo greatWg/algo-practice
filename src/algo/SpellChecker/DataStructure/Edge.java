@@ -3,11 +3,11 @@ package algo.SpellChecker.DataStructure;
 public class Edge 
 {
 	public Node targetNode;
-	public String lable;
+	public String label;
 	
-	public Edge(Node targetnode, String lable)
+	public Edge(Node targetnode, String label)
 	{
-		this.lable= lable;
+		this.label= label;
 		this.targetNode= targetnode;
 	}
 }
