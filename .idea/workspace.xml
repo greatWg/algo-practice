@@ -2,141 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="687f592f-96db-4b41-bedc-611bb3ff26f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Files/WordList.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Files/git commands" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IVews/Xpanse.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IVews/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/CheckArrayFormationThroughConcatenation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/ConsecutiveArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/ConvertBinaryNumberinaLinkedListtoIntegerSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/FindLandStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/GetNumberOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/MinDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/MinimumDominoRotationsForEqualRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/SummaryRanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/TwoDArrayHourGlass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/findTotalPairOfSocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/matrix/MatrixTopStartRightEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/matrix/RangeAddition2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/matrix/searchA2DMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/matrix/searchA2DMatrix_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/maxPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/minBribes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/minimumSwaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Arrays/sortIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Cache/SimpleCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Greedy/ElementSwapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Greedy/SlowSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/List/ALinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/List/CreateSortedArraythroughInstructions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/List/InsertionSortList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/List/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/List/ListOfListStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/List/ListWithComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/List/MinDeletion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/List/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/List/ReverseOperarions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/List/ReverseSubPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Math/DeterminantMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Math/Permutation/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Math/Permutation/Permutation_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Math/Permutation/XChooseYPermuatation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Math/PowerOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Math/ValidSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Math/powerset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Miscelleneous/CallersProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Miscelleneous/GetTotalScoreOfWordList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Miscelleneous/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/PriorityQueue/FindMaxProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/PriorityQueue/FiveStarReviews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/PriorityQueue/KthLargestElementInStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/PriorityQueue/MedianStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/PriorityQueue/PQTestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/PriorityQueue/SellDiminishingValuedColoredBalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Stacks/AsteroidCollision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/Stacks/BalanaceBrackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/dynamicProgramming/AmazonOnlineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/dynamicProgramming/BuySellProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/dynamicProgramming/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/dynamicProgramming/MaximizeDistanceToClosestPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/dynamicProgramming/NumberofLongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/graph/BuildOrderTopologicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/graph/FindTrioScoreGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/graph/GraphArticulationPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/graph/GraphBridges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/graph/ShortestPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/intution/FurthestBuildingYouCanReach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/intution/numPairsDivisibleBy60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/queue/FindPositions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/searching/SmallestDivisorBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/sorting/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/sorting/SortList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/BuddyStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/CharacterCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/FindEncryptedMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/InterLeavingString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/IsIntPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/IsSubSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/MaxNumberOfWordOccurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/MinLenSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/RemoveDuplicateLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/ReversePolishNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/ReverseWordInSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/ReverseWordSentence" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/string/ShortEncodingofWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/trees/BinaryTree/AverageLevelsBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/trees/BinaryTree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/trees/GenerateTree/NumberOfVisibleNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/trees/GenerateTree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/trees/GenerateTree/TreeSeializeDeseralize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/trees/MinimumHeightTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/trees/NodesInSubtree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoPS1/MaximalNetworkRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoPS1/MaximumNestingDepthParenthese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoPS1/MergeSortPointsInTwoDimenstion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoPS1/MinShotAmongPairPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoPS1/splitTwoStringsToMakePalindtrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/GridTopLeftBottomRight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/MemoryManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/Problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/util/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interview/ClassifyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/ClassifyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interview/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interview/KthLargestIn2dArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/KthLargestIn2dArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interview/ManipulateString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/ManipulateString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interview/MatchingParanthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/MatchingParanthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/GenerateTree/BuildTreeFromRelationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/trees/GenerateTree/BuildTreeFromRelationship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/SpellChecker/DataStructure/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/SpellChecker/DataStructure/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/SpellChecker/RadixTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/SpellChecker/RadixTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/SpellChecker/SpellChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/SpellChecker/SpellCheckerCorrecter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/SpellChecker/SpellCheckerCorrecter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/TrinaryTree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/trees/TrinaryTree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/TrinaryTree/StringOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/trees/TrinaryTree/StringOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/TrinaryTree/TrinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/trees/TrinaryTree/TrinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/dynamicProgramming/MaximizeProfitWithKTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/dynamicProgramming/MaximizeProfitWithKTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/dynamicProgramming/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/graph/shortestPath/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/graph/shortestPath/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/graph/shortestPath/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/graph/shortestPath/Vertex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/graph/traversal/GraphTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/graph/traversal/GraphAdjanciesMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/interviews/AzIsArrayHasCompliments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/interviews/AzIsArrayHasCompliments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/recursion/KSizeSubsetNset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/recursion/KSizeSubsetNset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/recursion/PermutationsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/recursion/PermutationsK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/recursion/subset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/recursion/subset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/searching/KsearchSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/searching/KsearchSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/searching/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/searching/Searching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/sorting/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sorting/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/sorting/SortingOfObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sorting/SortingOfObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/string/LongestPalindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/string/LongestPalindrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/string/PermutationString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/string/PermutationString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/string/ReverseWordString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/string/ReverseWordString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algoPS1/testDelete.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algo/List/DoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algo/List/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/git commands" beforeDir="false" afterPath="$PROJECT_DIR$/Files/git commands" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoPS1/CountInversionMergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoPS1/DataStructure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoPS1/MathPuzzle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoPS1/MaximalNetworkRank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoPS1/MaximumNestingDepthParenthese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoPS1/MergeSortPointsInTwoDimenstion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoPS1/MinShotAmongPairPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoPS1/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoPS1/splitTwoStringsToMakePalindtrom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoPS2/SchedulingJobs.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
